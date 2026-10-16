@@ -1,0 +1,291 @@
+
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>स्वच्छ भारत | Raj Kumar Nayak</title>
+
+<style>
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: #f4fff6;
+  color: #173b2a;
+  line-height: 1.7;
+}
+
+header {
+  text-align: center;
+  padding: 35px 15px;
+  color: white;
+  background: linear-gradient(120deg, #ff9933, #138808);
+}
+
+header h1 {
+  font-size: 36px;
+}
+
+header p {
+  margin-top: 8px;
+}
+
+nav {
+  background: #123b2b;
+  padding: 14px;
+  text-align: center;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 12px;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #ffcc66;
+}
+
+.hero {
+  padding: 65px 20px;
+  text-align: center;
+  color: white;
+  background: linear-gradient(135deg, #075e36, #159447);
+}
+
+.hero .icon {
+  font-size: 75px;
+}
+
+.hero h2 {
+  font-size: 34px;
+  margin: 12px 0;
+}
+
+.btn {
+  display: inline-block;
+  background: #ff9933;
+  color: #172b20;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 12px 25px;
+  margin-top: 20px;
+  border-radius: 25px;
+}
+
+section {
+  max-width: 1100px;
+  margin: auto;
+  padding: 40px 20px;
+}
+
+section h2 {
+  text-align: center;
+  color: #138808;
+  margin-bottom: 25px;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+}
+
+.card {
+  background: white;
+  padding: 24px;
+  border-radius: 15px;
+  text-align: center;
+  box-shadow: 0 4px 14px #00000012;
+  transition: transform 0.2s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card .icon {
+  font-size: 45px;
+}
+
+.card h3 {
+  color: #138808;
+  margin: 10px 0;
+}
+
+.info {
+  background: #e4f7e8;
+  padding: 25px;
+  border-radius: 15px;
+}
+
+.info ul {
+  padding-left: 25px;
+}
+
+button {
+  border: none;
+  padding: 12px 22px;
+  background: #138808;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+  margin: 8px;
+  font-size: 16px;
+}
+
+#answer {
+  font-weight: bold;
+  margin-top: 15px;
+}
+
+footer {
+  background: #123b2b;
+  color: white;
+  text-align: center;
+  padding: 25px;
+}
+
+@media(max-width: 600px) {
+  header h1 {
+    font-size: 28px;
+  }
+
+  nav a {
+    display: inline-block;
+    margin: 5px 7px;
+  }
+
+  .hero h2 {
+    font-size: 26px;
+  }
+}
+</style>
+</head>
+
+<body>
+
+<header>
+  <h1>🇮🇳 स्वच्छ भारत, सुंदर भारत</h1>
+  <p>स्वच्छता अपनाएं, देश को आगे बढ़ाएं!</p>
+  <p>Student Project: Raj Kumar Nayak | Class 9th</p>
+</header>
+
+<nav>
+  <a href="#home">होम</a>
+  <a href="#mission">अभियान</a>
+  <a href="#rules">सफाई के नियम</a>
+  <a href="#pledge">शपथ</a>
+  <a href="#about">मेरे बारे में</a>
+</nav>
+
+<div class="hero" id="home">
+  <div class="icon">🌿</div>
+  <h2>मेरा भारत, स्वच्छ भारत</h2>
+  <p>स्वच्छता केवल एक आदत नहीं, बल्कि हमारी जिम्मेदारी है।</p>
+  <p>आइए, अपने घर, स्कूल, गांव और शहर को स्वच्छ रखें।</p>
+  <a href="#mission" class="btn">अभियान के बारे में जानें</a>
+</div>
+
+<section id="mission">
+  <h2>🧹 स्वच्छ भारत अभियान</h2>
+  <div class="info">
+    <p>
+      स्वच्छ भारत मिशन भारत सरकार का एक प्रमुख स्वच्छता अभियान है,
+      जिसकी शुरुआत 2 अक्टूबर 2014 को हुई थी।
+      इसका उद्देश्य स्वच्छता को बढ़ावा देना, खुले में शौच से मुक्ति
+      को प्रोत्साहित करना और कचरे का उचित प्रबंधन करना है।
+    </p>
+    <p>
+      हर नागरिक अपने आसपास सफाई रखकर इस अभियान में योगदान दे सकता है।
+    </p>
+  </div>
+</section>
+
+<section>
+  <h2>🌎 स्वच्छता क्यों जरूरी है?</h2>
+  <div class="cards">
+    <div class="card">
+      <div class="icon">🏥</div>
+      <h3>बेहतर स्वास्थ्य</h3>
+      <p>सफाई से कई बीमारियों के फैलने का खतरा कम करने में मदद मिलती है।</p>
+    </div>
+
+    <div class="card">
+      <div class="icon">🌳</div>
+      <h3>स्वच्छ पर्यावरण</h3>
+      <p>कचरे का सही निपटान हमारे आसपास के वातावरण को साफ रखता है।</p>
+    </div>
+
+    <div class="card">
+      <div class="icon">🏫</div>
+      <h3>सुंदर स्कूल</h3>
+      <p>साफ कक्षा और स्कूल सभी के लिए बेहतर वातावरण बनाते हैं।</p>
+    </div>
+  </div>
+</section>
+
+<section id="rules">
+  <h2>♻️ सफाई के 6 नियम</h2>
+  <div class="info">
+    <ul>
+      <li>कचरा हमेशा कूड़ेदान में डालें।</li>
+      <li>गीले और सूखे कचरे को अलग रखें।</li>
+      <li>प्लास्टिक का उपयोग कम करें।</li>
+      <li>सार्वजनिक स्थानों पर गंदगी न फैलाएं।</li>
+      <li>पानी बचाएं और आसपास सफाई रखें।</li>
+      <li>दूसरों को भी स्वच्छता के लिए प्रेरित करें।</li>
+    </ul>
+  </div>
+</section>
+
+<section id="pledge">
+  <h2>🤝 स्वच्छता की शपथ</h2>
+  <div class="info" style="text-align:center">
+    <p>
+      "मैं अपने घर, स्कूल और आसपास सफाई रखूंगा।
+      कचरा सही जगह डालूंगा और दूसरों को भी स्वच्छता के लिए
+      जागरूक करूंगा। मैं अपने भारत को स्वच्छ और सुंदर बनाने में
+      योगदान दूंगा।"
+    </p>
+    <button onclick="takePledge()">मैं शपथ लेता/लेती हूं</button>
+    <p id="answer"></p>
+  </div>
+</section>
+
+<section id="about">
+  <h2>👨‍🎓 मेरे बारे में</h2>
+  <div class="info" style="text-align:center">
+    <h3>Raj Kumar Nayak</h3>
+    <p>कक्षा: 9वीं</p>
+    <p>प्रोजेक्ट: स्वच्छ भारत अभियान</p>
+    <p>उद्देश्य: स्वच्छता के प्रति जागरूकता फैलाना।</p>
+  </div>
+</section>
+
+<footer>
+  <h3>🇮🇳 स्वच्छ भारत, स्वस्थ भारत 🇮🇳</h3>
+  <p>Created by Raj Kumar Nayak | Class 9th</p>
+  <p>स्वच्छता अपनाएं, देश का मान बढ़ाएं!</p>
+  <p>© 2026 School Project</p>
+</footer>
+
+<script>
+function takePledge() {
+  document.getElementById("answer").textContent =
+    "🎉 धन्यवाद! स्वच्छ भारत बनाने में आपका योगदान महत्वपूर्ण है।";
+}
+</script>
+
+</body>
+</html>
